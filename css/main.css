@@ -14,10 +14,6 @@ header img{
     width: 40px;
     height: 40px;
 }
-header nav{
-    position: relative;
-    right: 70px;
-}
 .fotoConNombre{
     display: flex;
     flex-direction: row;
@@ -64,24 +60,31 @@ h1{
     font-size: 70px;
     text-align: center;
 }
+h2{
+    font-size: 50px;
+}
 p{
     font-size: 40px;
 }
 footer{
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
     row-gap: 15px;
     background-color: black;
-    
+    padding-bottom: 15px;
+}
+textarea{
+    height: 300px;
 }
 footer p{
     color: grey;
     font-size: 25px;
-    margin-bottom: 0;
 }
 footer img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+}
+nav a:hover{
+    color: #0092ca;
 }

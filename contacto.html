@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="styleSheet" href="/css/main.css">
+        <link rel="styleSheet" href="/css/contacto.css">
     </head>
     <body>
         <header>
@@ -27,6 +28,24 @@
                 </a>
             </span>
         </header>
+        <main>
+            <form action="https://formspree.io/f/xojpwowv" method="post">
+                <h1>Formulario de contacto</h1>
+                <label>Nombre</label><br>
+                <input name="Nombre" type="text" required>
+                <label>Apellido</label><br>
+                <input name="Apellido" type="text" required>
+                <label>Teléfono</label><br>
+                <input name="Telefono" type="tel" required>
+                <label>Email</label><br>
+                <input name="Email" type="email" required>
+                <label>Mensaje</label>
+                <textarea name="mensajeFormulario" required></textarea>
+                <div class="centrarBoton">
+                    <input class="botonEnviarInformacion" type="submit" value="Enviar"/>
+                </div>
+            </form>
+        </main>
         <footer>
             <p>Página realizada por M.<br></p>
             <nav>
