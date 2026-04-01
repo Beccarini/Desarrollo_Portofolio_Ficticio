@@ -30,3 +30,9 @@ input, textarea{
     margin: 0;
     font-size: 30px;
 }
+main{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
