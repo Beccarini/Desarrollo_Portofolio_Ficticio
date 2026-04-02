@@ -18,6 +18,14 @@ header img{
     display: flex;
     flex-direction: row;
 }
+.fotoConNombre p{
+    font-size: 35px;
+    margin: 0;
+}
+.fotoConNombre img{
+    background-color: white;
+    padding: 1px;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -33,14 +41,6 @@ nav a{
     display: flex;
     column-gap: 10px;
     flex-direction: row;
-}
-.fotoConNombre p{
-    font-size: 35px;
-    margin: 0;
-}
-.fotoConNombre img{
-    background-color: white;
-    padding: 1px;
 }
 body{
     background: #0092ca;
@@ -59,9 +59,9 @@ h1{
 h2{
     font-size: 50px;
 }
-p, li{
+p, li, label, a{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'DM Sans',sans-serif;
 }
 footer{
     display: flex;
@@ -84,4 +84,70 @@ footer img{
 }
 nav a:hover{
     color: #0092ca;
+}
+@media screen and (max-width: 1500px){
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    p, li, label{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1300px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1100px){
+    p, li, label{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 810px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    p, li, label{
+        font-size: 25px;
+    }
+    .fotoConNombre, header .redesSociales{
+        display: none;
+    }
+}
+@media screen and (max-width: 410px) {
+    h1{
+        font-size: 30px;
+    }
+    nav{
+        display: flex;
+        gap: 30px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p, li, label{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 350px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    p, li, label{
+        font-size: 10px;
+    }
 }
